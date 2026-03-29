@@ -9,12 +9,17 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Africa/Tunis
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Amir Khammar
+tagline: ICT Engineering Student · Cybersecurity · Cloud · AI
+description: >-
+  Personal blog and write-ups by Amir Khammar — ICT Engineering student
+  at ENIT, Tunis.
+url: "https://Amir-web66.github.io"
 
 tagline: A text-focused Jekyll theme # it will display as the subtitle
 
@@ -23,29 +28,19 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
-
 github:
-  username: github_username # change to your GitHub username
+  username: Amir-web66
 
-twitter:
-  username: twitter_username # change to your Twitter username
+linkedin:
+  username: amir-khammar-934702389
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  name: Amir Khammar
+  email: your-email@example.com
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/amir-khammar-934702389/
+    - https://github.com/Amir-web66
 
-# Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
   bing: # fill in your Bing verification code
@@ -89,7 +84,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
