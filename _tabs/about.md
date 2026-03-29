@@ -4,5 +4,17 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I'm **Amir Khammar**, an ICT Engineering student at the 
+**National School of Engineering, Tunis (ENIT)**.
+
+My interests span **Cybersecurity**, **Cloud Infrastructure**, 
+**Artificial Intelligence**, and **Networking**.
+
+Outside of tech, I practice **Taekwondo ** and **Painting **.
+
+---
+
+**Motto:** *Consistency > Hype*
+
+> *"but how could you live and have no story to tell."*  
+> — Fyodor Dostoevsky
