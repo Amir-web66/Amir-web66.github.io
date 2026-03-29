@@ -15,8 +15,8 @@ Focus Areas :
   - Networks & Systems
 
 Outside Tech:
-  - Taekwondo 🥋
-  - Painting 🎨
+  - Taekwondo 
+  - Painting 
 
 Motto       : "Consistency > Hype"
 ```
@@ -33,7 +33,7 @@ Motto       : "Consistency > Hype"
 
 <br>
 
-## 📌 What This Blog Is About
+## What This Blog Is About
 
 This is where I document my learning journey — HTB machines, CTF write-ups,
 cloud labs, and security research notes.
