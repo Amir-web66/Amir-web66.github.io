@@ -5,7 +5,7 @@ order: 4
 
 <div style="text-align: center; margin-bottom: 2rem;">
   <img 
-    src="/assets/img/avatar.jpg" 
+    src="/assets/img/avatar.png" 
     alt="LBrinss"
     onclick="this.classList.toggle('zoomed')"
     style="
