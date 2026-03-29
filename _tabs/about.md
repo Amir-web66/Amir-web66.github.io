@@ -21,17 +21,17 @@ Outside Tech:
 Motto       : "Consistency > Hype"
 ```
 
----
+<br>
 
 ## 🔗 Connect
 
-| Platform | Link |
-|----------|------|
-| GitHub   | [Amir-web66](https://github.com/Amir-web66) |
-| LinkedIn | [amir-khammar](https://www.linkedin.com/in/amir-khammar-934702389/) |
+| Platform  | Link |
+|-----------|------|
+| GitHub    | [Amir-web66](https://github.com/Amir-web66) |
+| LinkedIn  | [amir-khammar](https://www.linkedin.com/in/amir-khammar-934702389/) |
 | Portfolio | [amir-web66.github.io](https://amir-web66.github.io/KIRILLOVV) |
 
----
+<br>
 
 ## 📌 What This Blog Is About
 
@@ -40,7 +40,7 @@ cloud labs, and security research notes.
 
 Every post is a story. Every challenge is a lesson.
 
----
+<br>
 
 > *"but how could you live and have no story to tell."*
 >
