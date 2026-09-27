@@ -232,17 +232,21 @@ const bannerFormats = getImageFormats();
 	)}
 
 	<!-- Ken Burns 动画样式（放在 body 中，不受 Swup head 替换影响） -->
-	{isCarouselEnabled && (
-		<Fragment set:html={`<style>
-			@keyframes bannerKenBurns {
-				0% { transform: scale(1.03); }
-				100% { transform: scale(1.13); }
-			}
-			.banner-kb {
-				animation: bannerKenBurns ${kbDurationMs}ms ease-out forwards;
-			}
-		</style>`} />
-	)}
+	<Fragment set:html={`<style>
+    @keyframes bannerKenBurns {
+        0% {
+            transform: scale(1.03);
+        }
+        100% {
+            transform: scale(1.13);
+        }
+    }
+
+    .banner-zoom {
+        animation: bannerKenBurns 20s ease-out forwards;
+        transform-origin: center center;
+    }
+</style>`} />
 
 	<!-- 轮播脚本：首帧复用 + Ken Burns + Crossfade + 触摸/鼠标事件 -->
 	<script is:inline data-swup-ignore-script>
@@ -760,7 +764,5 @@ const bannerFormats = getImageFormats();
 			transform: translateY(0);
 		}
 	}
-.banner-zoom {
-    transform: scale(1.12);
-}
+
 </style>
