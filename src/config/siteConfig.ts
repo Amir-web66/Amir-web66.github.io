@@ -127,7 +127,7 @@ export const siteConfig: SiteConfig = {
 			
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
+				"/assets/mobile-banner/main-banner.webp",
 				
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
