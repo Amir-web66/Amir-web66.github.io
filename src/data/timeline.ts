@@ -6,9 +6,9 @@ export const timelineData: TimelineItem[] = [
 		id: "taekwondo-black-belt",
 		title: "Taekwondo — 1st Dan Black Belt",
 		description:
-			"Achieved 1st Dan black belt in Taekwondo, marking an important milestone in a long-term journey built around discipline, consistency, and perseverance.",
+			"Achieved 1st Dan black belt in Taekwondo after 8 years of training, marking an important milestone in a long-term journey built around discipline, consistency, and perseverance.",
 		type: "achievement",
-		startDate: "2019-11-11",
+		startDate: "2020-09-20",
 		skills: ["Taekwondo", "Discipline", "Consistency", "Perseverance"],
 		achievements: [
 			"Achieved 1st Dan black belt",
@@ -25,7 +25,7 @@ export const timelineData: TimelineItem[] = [
 		description:
 			"Obtained the Tunisian Baccalauréat Technique in 2023, beginning the path toward engineering studies.",
 		type: "education",
-		startDate: "2023-06-01",
+		startDate: "2023-06-23",
 		organization: "Tunisian Baccalauréat",
 		achievements: [
 			"Final grade: 14.98 / 20",
@@ -43,7 +43,7 @@ export const timelineData: TimelineItem[] = [
 			"Completed the preparatory engineering cycle in Physics and Technology (PT), building a strong foundation in mathematics, physics, engineering sciences, and problem solving.",
 		type: "education",
 		startDate: "2023-09-01",
-		endDate: "2025-06-30",
+		endDate: "2025-06-03",
 		organization: "Engineering Preparatory Cycle — PT",
 		skills: [
 			"Mathematics",
@@ -158,9 +158,9 @@ export const timelineData: TimelineItem[] = [
 		id: "cisco-itn",
 		title: "Cisco NetAcad — Introduction to Networks",
 		description:
-			"Completed Cisco Networking Academy's Introduction to Networks course, developing practical foundations in networking and network infrastructure.",
+			"Completed Cisco Networking Academy's Introduction to Networks course,The first in a three-course series to build and develop practical foundations in networking and network infrastructure, get ready for CCNA certification and associate-level jobs.",
 		type: "achievement",
-		startDate: "2026-01-01",
+		startDate: "2026-06-24",
 		organization: "Cisco Networking Academy — ENIT",
 		skills: [
 			"Computer Networks",
@@ -171,7 +171,7 @@ export const timelineData: TimelineItem[] = [
 		],
 		achievements: [
 			"Completed Introduction to Networks",
-			"Built foundations in network infrastructure",
+			"Badge CCNA: Introduction to Networks",
 		],
 		icon: "material-symbols:lan",
 		color: "#2563EB",
@@ -183,7 +183,7 @@ export const timelineData: TimelineItem[] = [
 		description:
 			"Started building practical cybersecurity skills through CTFs, Hack The Box, Linux, networking, digital forensics, web exploitation, reverse engineering, and security labs.",
 		type: "project",
-		startDate: "2026-01-01",
+		startDate: "2025-10-01",
 		skills: [
 			"Linux",
 			"Networking",
