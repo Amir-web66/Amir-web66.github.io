@@ -46,15 +46,14 @@ Why this matters — signature-based IDS (like default Suricata rulesets) is str
 
 ## Challenges
 
-- [e.g. class imbalance between benign/malicious traffic]
-- [e.g. feature selection — which raw fields actually mattered]
-- [e.g. false positive tuning]
-
+- class imbalance between benign/malicious traffic
+- feature selection — which raw fields actually mattered
+- creating a network traffic and generate automated attacks.
 ## What I'd Improve Next
 
-- [e.g. real-time inference instead of batch classification]
-- [e.g. testing against adversarial/evasive traffic]
-- [e.g. comparing Random Forest against XGBoost or a neural net baseline]
+- real-time inference instead of batch classification
+- testing against adversarial/evasive traffic
+- comparing Random Forest against XGBoost or a neural net baseline
 
 ## Key Takeaways
 
