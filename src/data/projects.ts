@@ -4,7 +4,7 @@ export const projectsData: Project[] = [
 		title: "PFA1 — AI-Enhanced IDS Integration",
 		description:
 			"Integrating OPNsense, Suricata, and a Random Forest ML model to detect network intrusions, achieving 99.63% accuracy across 5,418 analyzed security events.",
-		image: "src/assets/posts/pfa1/pfa1_cover.webp",
+		image: "/assets/projects/pfa1.webp",
 		category: "other",
 		techStack: ["Python", "OPNsense", "Suricata", "scikit-learn"],
 		status: "completed",
