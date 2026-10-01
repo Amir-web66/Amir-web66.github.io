@@ -16,4 +16,4 @@ Completed the NVIDIA Fundamentals of Deep Learning course, strengthening foundat
 
 ## Certificate
 
-[View/Download Certificate (PDF)](public/assets/Certifs/certif_nvidia_DL.pdf)
+[View/Download Certificate (PDF)](/assets/Certifs/certif_nvidia_DL.pdf)
