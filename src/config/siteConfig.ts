@@ -1,51 +1,42 @@
 import type { SiteConfig } from "../types/config";
 
-// 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "en"; 
 
 export const siteConfig: SiteConfig = {
 	title: "LBrinss",
 	subtitle: "blog",
-	siteURL: "https://amir-web66.github.io/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
-	timeZone: "Africa/Tunis", // 文章日期使用的 IANA 时区，可改为 Asia/Tokyo、Europe/Berlin 等
+	siteURL: "https://amir-web66.github.io/", 
+	siteStartDate: "2025-01-01", 
+	timeZone: "Africa/Tunis", 
 
 	lang: SITE_LANG,
 
 	themeColor: {
 		hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		fixed: false, 
 	},
 
-	// 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
 	featurePages: {
-		anime: false, // 番剧页面开关
-		diary: false, // 日记页面开关
-		friends: false, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
-		timeline: true, // 时间线页面开关
-		albums: false, // 相册页面开关
-		devices: false, // 设备页面开关
-		aiTools: true, // AI 工具页面开关
+		anime: false, 
+		diary: false,
+		friends: false,  
+		projects: true, 
+		skills: true,  
+		timeline: true,  
+		albums: false,  
+		devices: false,  
+		aiTools: true,  
 	},
 
-	// 顶栏标题配置
-	navbarTitle: {
-		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
-		mode: "text-icon",
-		// 顶栏标题文本
-		text: "LBrinss",
-		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
+ 	navbarTitle: {
+ 		mode: "text-icon",
+ 		text: "LBrinss",
 		icon: "assets/home/home.webp",
-		// 网站Logo图片路径
 		logo: "assets/home/lbrinss-logo.webp",
 	},
 
-	// 旧版页面自动缩放配置。默认关闭，页面尺寸优先交由响应式布局处理。
 	pageScaling: {
-		enable: false, // 兼容旧站点的可选缩放；不建议通过根字号控制整体布局
-		targetWidth: 2000, // 目标宽度，低于此宽度时开始缩放
+		targetWidth: 2000, 
 	},
 
 	font: {
@@ -163,8 +154,8 @@ export const siteConfig: SiteConfig = {
 
 			subtitle: [
 				"Cybersecurity · Cloud · AI",
-				"Telecommunications Engineering Student",
-				"CTFs · Labs · Projects · Writeups",
+				"ICT Engineering Student",
+				"CTFs Player · Labs · Projects · Writeups",
 				"Building Systems That Think, Protect & Connect",
 			],
 			typewriter: {
@@ -227,7 +218,6 @@ export const siteConfig: SiteConfig = {
 		formats: "webp", // 图片输出格式："avif"、"webp" 或 "both"（avif+webp，最优质量但构建更慢）
 		quality: 85, // 图片质量，推荐 70-85
 		noReferrerDomains: [
-			// 需要添加 referrerpolicy="no-referrer" 的域名（支持通配符）
 			"*.hdslb.com", // Bilibili CDN
 		],
 	},
