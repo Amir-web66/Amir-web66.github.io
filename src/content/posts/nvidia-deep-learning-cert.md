@@ -13,10 +13,11 @@ Completed the NVIDIA Fundamentals of Deep Learning course, strengthening foundat
 This course introduced the fundamental concepts behind modern DL workflows, from understanding neural networks to training and evaluating models.
 
 ## What I Learned
--Neural Networks : how neurons, layers, weights, biases and activation functions work together.
--Training Models : how models learn through forward propagation, loss functions, backpropagation and optimization
--CNNs, Transfer Learning...
+* **Neural Networks** : how neurons, layers, weights, biases and activation functions work together.
+* **Training Models** : how models learn through forward propagation, loss functions, backpropagation and optimization
+* **CNNs, Transfer Learning...**
 
 ## Certificate
 
 [View/Download Certificate (PDF)](/assets/Certifs/certif_nvidia_DL.pdf)
+
