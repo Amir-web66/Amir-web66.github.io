@@ -88,7 +88,7 @@ export const timelineData: TimelineItem[] = [
 		title: "Joined Securinets ENIT",
 		description:
 			"Joined Securinets ENIT and started developing a deeper interest in cybersecurity through community activities, technical learning, and security challenges.",
-		type: "achievement",
+		type: "certification ",
 		startDate: "2025-09-01",
 		location: "ENIT — Tunis, Tunisia",
 		organization: "Securinets ENIT",
@@ -152,6 +152,8 @@ export const timelineData: TimelineItem[] = [
 		],
 		icon: "material-symbols:neurology",
 		color: "#76B900",
+		image: "/src/assets/images/certification/cert_nvidia.webp",
+
 	},
 
 	{
