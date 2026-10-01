@@ -2,7 +2,7 @@
 title: "PFA1 - AI Enhanced IDS Integration for firewalls" 
 published: 2026-04-26
 description: "Integrating OPNsense, Suricata, and a Random Forest ML model to detect network intrusions with 99.63% accuracy"
-tage: [cybersecurity, machine-learning, opnsense, suricata, Virtual Machines, network-security, python]
+tags: [cybersecurity, machine-learning, opnsense, suricata, Virtual Machines, network-security, python]
 category: Projects
 draft: false
 pinned: true
