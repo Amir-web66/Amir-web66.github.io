@@ -228,38 +228,7 @@ flag=Securinets{s0me_fun_f0r_xss_f4ns}
  
 **Flag:** `Securinets{s0me_fun_f0r_xss_f4ns}`
  
-## Exploit Chain Summary
+
  
-```
-[Attacker creates note with JS title]
-            ↓
-[Attacker puts <script src="/note/<id>/stats#webhook"> in bio]
-            ↓
-[Attacker sets button color to "red; pointer-events: none;"]
-            ↓
-[Attacker clicks "Trigger admin"]
-            ↓
-[Bot logs in as admin, gets flag cookie]
-            ↓
-[Bot visits /user/<id>/notes → clicks #view-btn → times out (10s)]
-            ↓
-[Bot falls back to /user/<id>/profile]
-            ↓
-[Bio loads /note/<id>/stats as JS]
-            ↓
-[JS reads document.cookie → redirects to webhook with btoa(cookie)]
-            ↓
-[Attacker decodes Base64 in webhook → flag]
-```
- 
-## Troubleshooting Notes
- 
-**"Why am I getting 0-byte requests?"**
-Because I was the one triggering the payload by visiting my own profile — my cookie is empty. Only the admin bot has the flag cookie. Click "Trigger admin" and wait for the bot's request.
- 
-**"How do I know which webhook request is from the bot?"**
-Check the IP address and User-Agent. Your own browser shows your IP plus a normal browser's User-Agent. The bot shows a different IP plus `HeadlessChrome/...`.
- 
-**"My own profile visit redirected me!"**
-The bio executes immediately for anyone viewing it, including you. Disable JavaScript temporarily in DevTools, use an incognito window, or trigger the bot via `curl` instead.
+
  
