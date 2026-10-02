@@ -7,11 +7,11 @@ category: Writeups
 draft: false
 ---
  
-**Challenge**: Crazy Notes
-**Category**: Web Exploitation
-**Difficulty**: 900 pts
-**Flag**: `Securinets{s0me_fun_f0r_xss_f4ns}`
-**Event**: Securinets CTF
+- **Challenge**: Crazy Notes
+- **Category**: Web Exploitation
+- **Difficulty**: 900 pts
+- **Flag**: `Securinets{s0me_fun_f0r_xss_f4ns}`
+- **Event**: Securinets CTF
 
  This challenge tests:
  
