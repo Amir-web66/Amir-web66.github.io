@@ -39,7 +39,7 @@ export const navBarConfig: NavBarConfig = {
       children: [
         {
           name: "Writeups",
-          url: "/archive/?category=Writeups/",
+          url: "/archive/?category=Writeups",
           icon: "material-symbols:terminal",
         },
         {
