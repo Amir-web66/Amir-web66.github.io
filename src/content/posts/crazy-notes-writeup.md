@@ -3,7 +3,7 @@ title: "Crazy Notes — XSS + CSP Bypass Writeup"
 published: 2026-10-02
 description: "Chaining HTML injection, a CSP bypass via a JS-reflecting endpoint, and bot-click denial to exfiltrate the admin's flag cookie through a webhook"
 tags: [xss, csp-bypass, web-exploitation, playwright, flask]
-category: CTF
+category: Writeups
 draft: false
 ---
  
