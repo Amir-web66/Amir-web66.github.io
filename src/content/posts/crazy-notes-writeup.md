@@ -40,15 +40,18 @@ src/
 - **The live instance was hosted at**:https://crazy-notes.web2.friendly-ctf.securinets.tn
 
   
-### Application Description
+### Exploring the App
 
-**Noted** is a minimal note manager. A user can:
+No description was provided beyond the live link, so I started by poking around the site manually to understand what it did.
+
+**Noted** turned out to be a minimal note manager. A user can:
 
 - Register and log in.
 - Write and store notes.
 - Edit a public profile bio.
-- Pick a color for the “View Random Note” button.
+- Pick a color for the "View Random Note" button.
 - Click a **Trigger admin** button that asks an automated **admin bot** to come visit their notes.
+
 ![Noted login page](../../assets/posts/crazy_notes_writeup/login.png)
 The admin bot (`bot.js`) is a Playwright script that:
 
