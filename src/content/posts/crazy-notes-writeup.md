@@ -18,24 +18,25 @@ draft: false
 ---## 1. What We Were Given
 
 The challenge handed us a ZIP archive containing the full source of a small note-taking web app called **Noted**, plus its companion admin bot. The files were:
+```text
 src/
 ├── docker-compose.yaml
 ├── app/
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── static/
-│ │ ├── app.css
-│ │ └── notes.js
-│ └── templates/
-│ ├── login.html
-│ ├── register.html
-│ ├── profile.html
-│ ├── notes.html
-│ └── note_detail.html
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static/
+│   │   ├── app.css
+│   │   └── notes.js
+│   └── templates/
+│       ├── login.html
+│       ├── register.html
+│       ├── profile.html
+│       ├── notes.html
+│       └── note_detail.html
 └── bot/
-├── bot.js
-└── package.json
-
+    ├── bot.js
+    └── package.json
+```
 - **The live instance was hosted at**:https://crazy-notes.web2.friendly-ctf.securinets.tn
 
   
@@ -88,7 +89,7 @@ The DOMPurify CDN on cdnjs.cloudflare.com.
 
 This means:
 
-Inline scripts like <script>alert(1)</script> are blocked.
+If we load it with `<script src="...">`, the browser sniffs it as JavaScript
 
 javascript: URIs are blocked.
 
@@ -191,8 +192,8 @@ The bot then:
 -**6-** Read the Flag from the Webhook
 
 On the webhook dashboard, a new request appeared. Crucially, it came from a different IP than my own, with a HeadlessChrome User-Agent — the classic fingerprint of an automated bot.
-The query string was: **ZmxhZz1TZWN1cmluZXRze3MwbWVfZnVuX2Ywcl94c3NfZjRuc30=**
-Decoding it as Base64 gives:
+-The query string was: **ZmxhZz1TZWN1cmluZXRze3MwbWVfZnVuX2Ywcl94c3NfZjRuc30=**
+-Decoding it as Base64 gives:
 **flag=Securinets{s0me_fun_f0r_xss_f4ns}**
 
 
