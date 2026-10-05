@@ -1,15 +1,18 @@
 ---
+title: "Chilla Box — Series Writeup"
+published: 2026-10-04
+description: "A 6-box forensics series: PDF auto-run trigger, JS deobfuscation, Azure Blob exfil via a DOCM macro, and pcap analysis to recover the leaked flag"
+tags: [forensics, pdf, vba-macros, docm, pcap, azure-blob]
+category: Writeups
+draft: false
 
+---
 # Chilla Box — Series Writeup
 
-category: Writeups
-**Author:** pulgaa 
-```
-https://pulgaa.xyz
-```
+**Author:** [pulgaa](https://pulgaa.xyz)
 **Event:** Securinets CTF
 **Difficulty:** 6-box series (100 → 200 pts each, ~900 pts total)
----
+
 
 **Note on setup:** This is a series of **6 chained challenges** that all use the **same three files**:
 > - `capture.pcap`
