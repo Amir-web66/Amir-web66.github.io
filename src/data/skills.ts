@@ -358,7 +358,7 @@ export const skillsData: Skill[] = [
 	name: "Taekwondo",
 	description:
 		"Long-term martial arts practice focused on discipline, technique, physical conditioning, and continuous improvement. 1st Dan black belt.",
-	icon: "mdi:karate",
+	icon: "mdi:human-handsdown",
 	category: "other",
 	level: "advanced",
 	experience: { years: 12, months: 7 },
