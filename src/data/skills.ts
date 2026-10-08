@@ -329,7 +329,41 @@ export const skillsData: Skill[] = [
 		certifications: ["nvidia-fundamentals-deep-learning"],
 		color: "#76B900",
 	},
+	{
+	id: "mathematics",
+	name: "Mathematics",
+	description:
+		"Advanced mathematical foundations used in engineering, including algebra, calculus, differential equations, probability, and applied mathematics.",
+	icon: "material-symbols:functions",
+	category: "other",
+	level: "advanced",
+	experience: { years: 3, months: 0 },
+	color: "#7E57C2",
+},
 
+{
+	id: "physics",
+	name: "Physics",
+	description:
+		"Fundamentals of physics applied to engineering, including mechanics, electromagnetism, waves, quantum physics and physical principles relevant to telecommunications.",
+	icon: "material-symbols:science",
+	category: "other",
+	level: "intermediate",
+	experience: { years: 3, months: 0 },
+	color: "#00897B",
+},
+
+{
+	id: "taekwondo",
+	name: "Taekwondo",
+	description:
+		"Long-term martial arts practice focused on discipline, technique, physical conditioning, and continuous improvement. 1st Dan black belt.",
+	icon: "mdi:karate",
+	category: "other",
+	level: "advanced",
+	experience: { years: 12, months: 7 },
+	color: "#212121",
+},
 	
 
 	// Robotics
