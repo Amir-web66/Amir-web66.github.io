@@ -154,7 +154,7 @@ export const siteConfig: SiteConfig = {
 
 			subtitle: [
 				"Cybersecurity · Cloud · AI",
-				"ICT Engineering Student",
+				"ICT Engineering Student @ ENIT",
 				"CTFs Player · Labs · Projects · Writeups",
 				"Building Systems That Think, Protect & Connect",
 			],
