@@ -115,7 +115,7 @@ export const timelineData: TimelineItem[] = [
 		description:
 			"Developed an AI-enhanced intrusion detection integration for firewalls, combining OPNsense, Suricata, and a Random Forest machine-learning model to analyze network security events.",
 		type: "project",
-		startDate: "2025-04-22",
+		startDate: "2026-04-22",
 		organization: "ENIT — PFA1",
 		skills: [
 			"Cybersecurity",
@@ -144,7 +144,7 @@ export const timelineData: TimelineItem[] = [
 		description:
 			"Completed the NVIDIA Fundamentals of Deep Learning course, strengthening foundations in artificial intelligence and deep learning.",
 		type: "achievement",
-		startDate: "2026-01-01",
+		startDate: "2026-02-07",
 		organization: "NVIDIA",
 		skills: ["Artificial Intelligence", "Deep Learning", "Neural Networks"],
 		achievements: [
@@ -213,7 +213,7 @@ export const timelineData: TimelineItem[] = [
 		description:
 			"Building a personal engineering and cybersecurity portfolio to document projects, CTF writeups, Hack The Box machines, labs, certifications, and the ongoing learning journey.",
 		type: "project",
-		startDate: "2026-01-01",
+		startDate: "2026-09-01",
 		skills: [
 			"Astro",
 			"TypeScript",
