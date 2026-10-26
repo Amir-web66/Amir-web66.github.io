@@ -38,9 +38,9 @@ export const timelineData: TimelineItem[] = [
 
 	{
 		id: "prepa-pt",
-		title: "Préparatoire — Cycle PT",
+		title: "Préparatoire - Cycle PT",
 		description:
-			"Completed the preparatory engineering cycle in Physics and Technology (PT), building a strong foundation in mathematics, physics, engineering sciences, and problem solving.",
+			"Completed the preparatory engineering cycle in Physics and Technology (PT), building a strong foundation in mathematics, physics, mechanics and problem solving.",
 		type: "education",
 		startDate: "2023-09-01",
 		endDate: "2025-06-03",
@@ -63,7 +63,7 @@ export const timelineData: TimelineItem[] = [
 
 	{
 		id: "enit-telecommunications",
-		title: "ENIT — Telecommunications Engineering",
+		title: "ENIT - Telecommunications Engineering",
 		description:
 			"Started the engineering cycle at the National Engineering School of Tunis, specializing in Telecommunications Engineering and building foundations in networks, systems, embedded technologies, and cybersecurity.",
 		type: "education",
@@ -183,15 +183,15 @@ export const timelineData: TimelineItem[] = [
     id: "IRIS Internship",
     title: "First summer internship at IRIS technologies",
     description:
-        "Worker internship at IRIS Technologies focused on securing the company's IT infrastructure: deployed a private Gitea server for source code management, hardened SSH access with key-based authentication, and configured Fail2Ban against brute-force attacks — alongside groundwork on ROS2 security (SROS2) for the company's robotic systems.",
+        "Worker internship at IRIS Technologies focused on securing the company's IT infrastructure: deployed a private Gitea server for source code management, secured SSH access with key-based authentication, and configured Fail2Ban against brute-force attacks alongside groundwork on ROS2 security (SROS2) for the company's robotic systems.",
     type: "project",
     startDate: "2026-06-02",
     endDate: "2026-07-03",
     organization: "IRIS",
-    skills: ["Gitea", "SSH Hardening", "Fail2Ban", "ROS2", "Linux Server Administration"],
+    skills: ["Gitea", "SSH ", "Fail2Ban", "ROS2", "Linux Server Administration"],
     achievements: [
         "Deployed a private Gitea server for source code management",
-        "Hardened SSH access with key-based authentication",
+        "secured SSH access with key-based authentication",
         "Configured Fail2Ban for anti-intrusion protection",
     ],
     icon: "material-symbols:security",
