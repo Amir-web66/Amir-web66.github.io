@@ -108,6 +108,23 @@ export const timelineData: TimelineItem[] = [
 		color: "#059669",
 		featured: true,
 	},
+	{
+		id: "nvidia-deep-learning",
+		title: "NVIDIA — Fundamentals of Deep Learning",
+		description:
+			"Completed the NVIDIA Fundamentals of Deep Learning course, strengthening foundations in artificial intelligence and deep learning.",
+		type: "achievement",
+		startDate: "2026-02-07",
+		organization: "NVIDIA",
+		skills: ["Artificial Intelligence", "Deep Learning", "Neural Networks"],
+		achievements: [
+			"Completed NVIDIA Fundamentals of Deep Learning",
+		],
+		icon: "material-symbols:neurology",
+		color: "#76B900",
+		image: "/src/assets/images/certification/cert_nvidia.webp",
+
+	},
 
 	{
 		id: "pfa1-ids",
@@ -138,23 +155,7 @@ export const timelineData: TimelineItem[] = [
 		featured: true,
 	},
 
-	{
-		id: "nvidia-deep-learning",
-		title: "NVIDIA — Fundamentals of Deep Learning",
-		description:
-			"Completed the NVIDIA Fundamentals of Deep Learning course, strengthening foundations in artificial intelligence and deep learning.",
-		type: "achievement",
-		startDate: "2026-02-07",
-		organization: "NVIDIA",
-		skills: ["Artificial Intelligence", "Deep Learning", "Neural Networks"],
-		achievements: [
-			"Completed NVIDIA Fundamentals of Deep Learning",
-		],
-		icon: "material-symbols:neurology",
-		color: "#76B900",
-		image: "/src/assets/images/certification/cert_nvidia.webp",
-
-	},
+	
 
 	{
 		id: "cisco-itn",
@@ -178,6 +179,24 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:lan",
 		color: "#2563EB",
 	},
+	{
+    id: "IRIS Internship",
+    title: "First summer internship at IRIS technologies",
+    description:
+        "Worker internship at IRIS Technologies focused on securing the company's IT infrastructure: deployed a private Gitea server for source code management, hardened SSH access with key-based authentication, and configured Fail2Ban against brute-force attacks — alongside groundwork on ROS2 security (SROS2) for the company's robotic systems.",
+    type: "project",
+    startDate: "2026-06-02",
+    endDate: "2026-07-03",
+    organization: "IRIS",
+    skills: ["Gitea", "SSH Hardening", "Fail2Ban", "ROS2", "Linux Server Administration"],
+    achievements: [
+        "Deployed a private Gitea server for source code management",
+        "Hardened SSH access with key-based authentication",
+        "Configured Fail2Ban for anti-intrusion protection",
+    ],
+    icon: "material-symbols:security",
+    color: "#059669",
+},
 
 	{
 		id: "cybersecurity-journey",
