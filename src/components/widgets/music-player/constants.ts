@@ -2,7 +2,6 @@ import clCover from "../../../assets/music/cover/cl.webp?url";
 import dazbeeCover from "../../../assets/music/cover/dazbee.webp?url";
 import hitoriCover from "../../../assets/music/cover/hitori.webp?url";
 import xryxCover from "../../../assets/music/cover/xryx.webp?url";
-import manchawiCover from "../../../assets/music/cover/manchawi.webp?url";
 
 import type { Song } from "./types";
 
@@ -49,10 +48,10 @@ export const LOCAL_PLAYLIST: Song[] = [
 	id: 5,
 	title: " سورة الأنبياء",
 	artist: "المنشاوي",
-	cover: manchawiCover,
+	cover: "/assets/music/cover/manchawi.webp",
 	url: "assets/music/url/manchawi.mp3",
-	duration: 1673, // I'll get the real number once the mp3 is fixed
-	},
+	duration: 1704,
+},,
 ];
 
 export const DEFAULT_SONG: Song = {
