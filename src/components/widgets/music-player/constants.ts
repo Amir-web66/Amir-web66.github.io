@@ -51,7 +51,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 	cover: "/assets/music/cover/manchawi.webp",
 	url: "assets/music/url/manchawi.mp3",
 	duration: 1704,
-},,
+	},
 	{
 	id: 6,
 	title: "سورة الكهف",
