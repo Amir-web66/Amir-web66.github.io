@@ -52,6 +52,14 @@ export const LOCAL_PLAYLIST: Song[] = [
 	url: "assets/music/url/manchawi.mp3",
 	duration: 1704,
 },,
+	{
+	id: 6,
+	title: "سورة الكهف",
+	artist: "حسين العزام",
+	cover: "/assets/music/cover/hazam.webp",
+	url: "/assets/music/url/suratkahf.mp3",
+	duration: 1949,
+	},
 ];
 
 export const DEFAULT_SONG: Song = {
