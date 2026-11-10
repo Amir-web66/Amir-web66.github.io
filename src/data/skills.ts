@@ -362,7 +362,7 @@ export const skillsData: Skill[] = [
 	category: "other",
 	level: "advanced",
 	experience: { years: 12, months: 7 },
-	color: "#212121",
+	color: "#212140",
 },
 	
 
