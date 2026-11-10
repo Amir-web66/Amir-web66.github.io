@@ -252,6 +252,17 @@ export const skillsData: Skill[] = [
 		experience: { years: 0, months: 6 },
 		color: "#2496ED",
 	},
+	{
+	id: "blender",
+	name: "Blender",
+	description:
+		"3D modeling and rendering software used for creating and visualizing assets.",
+	icon: "logos:blender",
+	category: "tools",
+	level: "beginner",
+	experience: { years: 0, months: 2 },
+	color: "#F5792A",
+},
 
 	{
 		id: "git",
@@ -362,7 +373,7 @@ export const skillsData: Skill[] = [
 	category: "other",
 	level: "advanced",
 	experience: { years: 12, months: 7 },
-	color: "#212140",
+	color: "#DC2626",
 },
 	
 
