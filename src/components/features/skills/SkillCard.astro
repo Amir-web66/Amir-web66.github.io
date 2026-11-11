@@ -38,16 +38,8 @@ const getLevelWidth = (level: string) => {
 	}
 };
 
-const formatExperience = (exp: { years: number; months: number }) => {
-	const parts: string[] = [];
-	if (exp.years > 0) {
-		parts.push(`${exp.years} ${i18n(I18nKey.skillYears)}`);
-	}
-	if (exp.months > 0) {
-		parts.push(`${exp.months} ${i18n(I18nKey.skillMonths)}`);
-	}
-	return parts.join(" ");
-};
+const yearsLabel = i18n(I18nKey.skillYears);
+const monthsLabel = i18n(I18nKey.skillMonths);
 ---
 
 <div
@@ -82,8 +74,12 @@ const formatExperience = (exp: { years: number; months: number }) => {
 						{getLevelText(skill.level)}
 					</span>
 				</div>
-				<p class="text-xs text-black/50 dark:text-white/50">
-					{formatExperience(skill.experience)}
+								<p
+					class="skill-experience text-xs text-black/50 dark:text-white/50"
+					data-start-date={skill.startDate}
+					data-years-label={yearsLabel}
+					data-months-label={monthsLabel}
+				>
 				</p>
 			</div>
 		</div>
@@ -174,3 +170,42 @@ const formatExperience = (exp: { years: number; months: number }) => {
 		overflow: hidden;
 	}
 </style>
+<script>
+	// Computes "X years Y months" live from each skill's startDate, so experience
+	// stays accurate forever without ever needing to hand-edit years/months.
+	function renderSkillExperience() {
+		const now = new Date();
+
+		document.querySelectorAll<HTMLElement>(".skill-experience").forEach((el) => {
+			const startDateStr = el.dataset.startDate;
+			if (!startDateStr) return;
+
+			const start = new Date(startDateStr);
+			if (Number.isNaN(start.getTime())) return;
+
+			let years = now.getFullYear() - start.getFullYear();
+			let months = now.getMonth() - start.getMonth();
+
+			if (now.getDate() < start.getDate()) {
+				months -= 1;
+			}
+			if (months < 0) {
+				years -= 1;
+				months += 12;
+			}
+
+			const parts: string[] = [];
+			if (years > 0) {
+				parts.push(`${years} ${el.dataset.yearsLabel ?? "years"}`);
+			}
+			if (months > 0) {
+				parts.push(`${months} ${el.dataset.monthsLabel ?? "months"}`);
+			}
+
+			el.textContent = parts.join(" ");
+		});
+	}
+
+	renderSkillExperience();
+	document.addEventListener("astro:page-load", renderSkillExperience);
+</script>
