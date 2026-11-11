@@ -8,10 +8,8 @@ export interface Skill {
 	icon: string; // Iconify icon name
 	category: "frontend" | "backend" | "database" | "tools" | "other";
 	level: "beginner" | "intermediate" | "advanced" | "expert";
-	experience: {
-		years: number;
-		months: number;
-	};
+	/** ISO date (YYYY-MM-DD) marking when you started this skill. Experience (years/months) is computed dynamically from this date, so it's always accurate — no need to update it manually. */
+	startDate: string;
 	projects?: string[];
 	certifications?: string[];
 	color?: string;
