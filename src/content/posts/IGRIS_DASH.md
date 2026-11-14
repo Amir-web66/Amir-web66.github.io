@@ -7,7 +7,7 @@ category: Projects
 draft: false
 pinned: true
 priority: 1
-image: "src/assets/posts/pfa1/IGRIS_cover.png"
+image: "src/assets/posts/IGRIS/IGRIS_cover.png"
 ---
 
 ## Overview
