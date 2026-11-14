@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
  		mode: "text-icon",
  		text: "LBrinss",
 		icon: "assets/home/home.webp",
-		logo: "assets/home/lbrinss-logo.webp",
+		logo: "assets/home/LBrinss_logo_B.webp",
 	},
 
 	pageScaling: {
