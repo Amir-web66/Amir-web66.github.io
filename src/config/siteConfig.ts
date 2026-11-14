@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
  	navbarTitle: {
  		mode: "text-icon",
  		text: "LBrinss",
-		icon: "assets/home/home.webp",
+		icon: "assets/home/LBrinss_logo_B.webp",
 		logo: "assets/home/LBrinss_logo_B.webp",
 	},
 
