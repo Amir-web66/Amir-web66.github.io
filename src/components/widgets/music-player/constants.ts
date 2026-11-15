@@ -16,7 +16,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		id: 1,
 		title: "Carrying you",
 		artist: "ghibli",
-		cover: "src/assets/music/cover/laputa.webp",
+		cover: "/assets/music/cover/laputa.webp",
 		url: "assets/music/url/laputa.mp3",
 		duration: 312,
 	},
