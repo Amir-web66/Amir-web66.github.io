@@ -12,4 +12,17 @@ export const projectsData: Project[] = [
 		featured: true,
 		tags: ["Cybersecurity", "Machine Learning", "Network Security"],
 	},
+	{
+		id: "IGRIS",
+		title: "IGRIS - a habit tracking Dashboard",
+		description:
+			"A local-first personal productivity dashboard combining habit tracking, study analytics, and Python-based behavioral analysis.",
+		image: "/assets/projects/IGRIS.webp",
+		category: "other",
+		techStack: ["Python", "JavaScript", "Node.js", "Chart.js"],
+		status: "completed",
+		startDate: "2025-04-14",
+		featured: true,
+		tags: ["Python", "JavaScript", "Data Analytic"],
+	},
 	];
