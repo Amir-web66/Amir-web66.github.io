@@ -21,31 +21,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 241,
 	},
 	{
-		id: 2,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: hitoriCover,
-		url: "assets/music/url/hitori.mp3",
-		duration: 253,
-	},
-	{
-		id: 3,
-		title: "眩耀夜行",
-		artist: "ス리즈ブーケ",
-		cover: xryxCover,
-		url: "assets/music/url/xryx.mp3",
-		duration: 245,
-	},
-	{
-		id: 4,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: clCover,
-		url: "assets/music/url/cl.mp3",
-		duration: 242,
-	},
-	{
-	id: 5,
+	id: 2,
 	title: " سورة الأنبياء",
 	artist: "المنشاوي",
 	cover: "/assets/music/cover/manchawi.webp",
@@ -53,13 +29,38 @@ export const LOCAL_PLAYLIST: Song[] = [
 	duration: 1704,
 	},
 	{
-	id: 6,
+	id: 3,
 	title: "سورة الكهف",
 	artist: "حسين العزام",
 	cover: "/assets/music/cover/hazam.webp",
 	url: "/assets/music/url/suratkahf.mp3",
 	duration: 1949,
 	},
+	{
+		id: 4,
+		title: "ひとり上手",
+		artist: "Kaya",
+		cover: hitoriCover,
+		url: "assets/music/url/hitori.mp3",
+		duration: 253,
+	},
+	{
+		id: 5,
+		title: "眩耀夜行",
+		artist: "ス리즈ブーケ",
+		cover: xryxCover,
+		url: "assets/music/url/xryx.mp3",
+		duration: 245,
+	},
+	{
+		id: 6,
+		title: "春雷の頃",
+		artist: "22/7",
+		cover: clCover,
+		url: "assets/music/url/cl.mp3",
+		duration: 242,
+	},
+	
 ];
 
 export const DEFAULT_SONG: Song = {
