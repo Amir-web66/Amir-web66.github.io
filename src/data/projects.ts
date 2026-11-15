@@ -25,6 +25,6 @@ export const projectsData: Project[] = [
 		startDate: "2025-04-14",
 		featured: true,
 		tags: ["Python", "JavaScript", "Data Analytic"],
-		visitUrl: "https://amir-web66.github.io/posts/igris_dash/"
+		visitUrl: "https://github.com/Amir-web66/IGRIS"
 	},
 	];
