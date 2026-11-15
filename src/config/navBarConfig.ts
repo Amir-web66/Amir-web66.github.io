@@ -67,6 +67,12 @@ export const navBarConfig: NavBarConfig = {
           url: "/skills/",
           icon: "material-symbols:psychology",
         },
+		{
+			name: "CV",
+			url: "/cv/amir_khammar_cv.pdf",
+			icon: "material-symbols:description", 
+			external: true,
+		},
       ],
     },
 
