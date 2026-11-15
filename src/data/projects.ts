@@ -11,6 +11,7 @@ export const projectsData: Project[] = [
 		startDate: "2025-04-01",
 		featured: true,
 		tags: ["Cybersecurity", "Machine Learning", "Network Security"],
+		visitUrl: "https://amir-web66.github.io/posts/pfa1_project/"
 	},
 	{
 		id: "IGRIS",
@@ -24,5 +25,6 @@ export const projectsData: Project[] = [
 		startDate: "2025-04-14",
 		featured: true,
 		tags: ["Python", "JavaScript", "Data Analytic"],
+		visitUrl: "https://amir-web66.github.io/posts/igris_dash/"
 	},
 	];
