@@ -14,12 +14,13 @@ export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
-		title: "口笛で愛は歌えない",
-		artist: "Dazbee",
-		cover: dazbeeCover,
-		url: "assets/music/url/dazbee.mp3",
-		duration: 241,
+		title: "Carrying you",
+		artist: "ghibli",
+		cover: laputaCover,
+		url: "assets/music/url/laputa.mp3",
+		duration: 312,
 	},
+	
 	{
 	id: 2,
 	title: " سورة الأنبياء",
@@ -37,7 +38,15 @@ export const LOCAL_PLAYLIST: Song[] = [
 	duration: 1949,
 	},
 	{
-		id: 4,
+		id: 4 ,
+		title: "口笛で愛は歌えない",
+		artist: "Dazbee",
+		cover: dazbeeCover,
+		url: "assets/music/url/dazbee.mp3",
+		duration: 241,
+	},
+	{
+		id: 5,
 		title: "ひとり上手",
 		artist: "Kaya",
 		cover: hitoriCover,
@@ -45,7 +54,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 253,
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "眩耀夜行",
 		artist: "ス리즈ブーケ",
 		cover: xryxCover,
@@ -53,7 +62,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		duration: 245,
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "春雷の頃",
 		artist: "22/7",
 		cover: clCover,
