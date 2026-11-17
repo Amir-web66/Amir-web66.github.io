@@ -1,4 +1,3 @@
-Taekwondo training camp 2022 · MD
 ---
 title: "Tunisian National Taekwondo Training Camp — October 2022"
 published: 2022-10-23
