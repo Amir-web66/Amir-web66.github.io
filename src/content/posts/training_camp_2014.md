@@ -15,5 +15,4 @@ One of the earliest milestones in a long-term Taekwondo journey that would later
 
 ## Certification
 
-[View/Download Certificate (PDF)]
-(/assets/Certifs/certif_trainingcamp_2014.pdf)
+[View/Download Certificate (PDF)](/assets/Certifs/certif_trainingcamp_2014.pdf)
