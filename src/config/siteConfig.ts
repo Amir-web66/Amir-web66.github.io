@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
 	title: "LBrinss",
 	subtitle: "blog",
 	siteURL: "https://amir-web66.github.io/", 
-	siteStartDate: "2025-01-01", 
+	siteStartDate: "2026-10-01", 
 	timeZone: "Africa/Tunis", 
 
 	lang: SITE_LANG,
